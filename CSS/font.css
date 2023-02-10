@@ -1,0 +1,34 @@
+@font-face {
+    font-family: bold-font;
+    src: url(Images/static/Catamaran-Bold.ttf);
+}
+
+@font-face {
+    font-family:black-font ;
+    src: url(Images/static/Catamaran-Black.ttf);
+}
+
+@font-face {
+    font-family:extralight-font ;
+    src: url(Images/static/Catamaran-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family:regular-font ;
+    src: url(Images/static/Catamaran-Regular.ttf);
+}
+
+@font-face {
+    font-family:medium-font ;
+    src: url(Images/static/Catamaran-Medium.ttf);
+}
+
+@font-face {
+    font-family:semibold-font ;
+    src: url(Images/static/Catamaran-SemiBold.ttf);
+}
+
+@font-face {
+    font-family:light-font ;
+    src: url(Images/static/Catamaran-Light.ttf);
+}

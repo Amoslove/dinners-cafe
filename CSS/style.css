@@ -1,0 +1,374 @@
+@import url(../CSS/font.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container-fluid {
+  width: 100%;
+}
+
+#container-fluid {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* navbar styling */
+.navbar-brand h3 {
+  color: orange;
+}
+
+.navbar {
+  width: inherit;
+  background-color: #d3d3d300;
+  display: flex;
+  height: 85px;
+}
+
+.collapse {
+  justify-content: end;
+}
+
+.collapse .navbar-nav .nav-item .nav-link {
+  color: whitesmoke;
+  /* color: orange; */
+  padding: 15px;
+  transform: scale();
+  transition: all 1s;
+}
+
+.collapse .navbar-nav .nav-item:nth-child(1) {
+  border-bottom: 2px solid orange;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: white;
+  border-bottom: 1px solid orange;
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+.nav-image {
+  /* background-color: antiquewhite; */
+  background: linear-gradient(to right, rgb(2, 1, 14), rgb(20, 23, 39));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-item .carousel-caption h1 {
+  color: orange;
+  font-size: 70px;
+  font-family: regular-font;
+}
+
+.carousel-inner {
+  background-size: cover;
+}
+
+.navbar-toggler {
+  color: #ffa500;
+  transform: scale(1);
+  transition: all 2s;
+}
+.navbar button {
+  background-color: #ffa500;
+}
+
+.navbar-toggler:hover {
+  background-color: #fff;
+  transform: scale(1.1);
+  transition: all 1s;
+}
+/* end of navbar styling */
+
+/* dumaf menu #################################*/
+.dumaf-menu {
+  text-align: center;
+  margin-top: 7%;
+  font-family: black-font;
+}
+
+#table {
+  width: 50%;
+  margin: auto;
+  border: none;
+}
+
+a.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.table td .nav-link {
+  display: inline-flex;
+  color: black;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+.table td .nav-link:hover {
+  color: orange;
+}
+
+.table td h6 .link:nth-child(1) {
+  margin: 7px;
+}
+
+.menu-section {
+  margin-top: 5%;
+  /* width: 90%; */
+  margin: 5% auto;
+  background-color: #d3d3d3d3;
+}
+
+.menu-roller {
+  transform: transform(40px, 40px);
+  animation-name: menu-roller;
+  animation-duration: 15s;
+  animation-timing-function: cubic-bezier(0, 0);
+  animation-iteration-count: infinite;
+}
+
+@keyframes menu-roller {
+  0% {
+    /* background: linear-gradient(to right, rgb(240, 219, 32), rgb(20, 23, 39)); */
+    background-image: url(../images/IMG_E1598.JPG);
+    background-size: cover;
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    background-image: url(../images/dumaf.JPG);
+    /* background: linear-gradient(to right, rgb(235, 238, 53), rgb(20, 23, 39)); */
+    background-size: cover;
+    transform: translate(0, 0);
+  }
+
+  50% {
+    background-image: url(../images/IMG_E1602.JPG);
+    /* background: linear-gradient(to right, rgb(2, 1, 14), rgb(240, 219, 32)); */
+    background-size: cover;
+    transform: translate(0, 0);
+  }
+
+  75% {
+    background-image: url(../images/dumaf.JPG);
+    /* background: linear-gradient(to right, rgb(235, 238, 53), rgb(20, 23, 39)); */
+    background-size: cover;
+    transform: translate(0, 0);
+  }
+
+  100% {
+    background-image: url(../images/IMG_E1596.JPG);
+    /* background: linear-gradient(to right, rgb(240, 219, 32), rgb(20, 23, 39)); */
+    background-size: cover;
+    transform: translate(0, 0);
+  }
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.box {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 3%;
+  height: 350px;
+  width: 100%;
+  border-radius: 30% 0 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img-box {
+  background-color: rgb(2, 1, 14);
+}
+
+.detail-box {
+  background-color: #ffa500;
+  max-height: 200px;
+  width: 100%;
+  color: white;
+  margin-left: 3%;
+}
+
+h5 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+.inner-box {
+  background-color: #ffa500;
+}
+
+h4 {
+  text-align: center;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  /* transform: rotate(30deg); */
+}
+
+/* end of dumaf menu */
+
+/* history section styling */
+#row {
+  margin: 0;
+}
+#col-md-6 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.history-section {
+  background-color: darkslategray;
+}
+
+.container-img img {
+  width: 100%;
+  background-size: cover;
+  border-radius: 5% 5% 0 0;
+  box-shadow: 0 0 3px gray;
+}
+
+div.button {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+button.btn {
+  background-color: #ffa500;
+}
+button.btn:hover {
+  background-color: #ffa500;
+  color: whitesmoke;
+}
+button.btn a {
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* end of history section styling */
+
+/* booking section styling */
+
+.book-section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.heading-container h1 {
+  margin-left: 7%;
+}
+.book-section .form-section .form-control {
+  width: 100%;
+  margin: 20px;
+  border: 1px solid #808080;
+}
+.book-section .form-section .btn-box button {
+  width: 40%;
+  border-radius: 25px;
+  background-color: #ffa500;
+  padding: 10px;
+  color: whitesmoke;
+  margin-left: 7px;
+  border: 1px solid #808080;
+}
+
+input.form-control {
+  padding: 15px;
+  font-weight: 500;
+}
+/* end of booking section */
+
+/* footer-section styling */
+.footer-section {
+  background-color: #20180a;
+  height: 400px;
+}
+.footer-container .col-md-4 {
+  margin-top: 5%;
+}
+
+.footer-contact h4 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: regular-font;
+}
+
+.contact-link-box div {
+  text-align: center;
+}
+
+.contact-link-box div a {
+  text-decoration: none;
+  color: #ffa500;
+  margin: 12px;
+}
+.contact-link-box div a:hover {
+  color: whitesmoke;
+}
+#contact-link-box a:hover {
+  transform: scale(1.05);
+}
+/* end of footer styling */
+
+/* location styling */
+
+.location-container {
+  background-color: rgb(3, 3, 24);
+  background-size: cover;
+  height: 600px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.location-container h1 {
+  text-align: center;
+}
+.location-content {
+  background-color: rgba(245, 245, 245, 0.288);
+  height: 600px;
+  width: 100%;
+}
+
+.location-box {
+  background-image: url(../images/IMG_E1602.JPG);
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.location-box .google-map-instruction p {
+  color: orange;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  font-size: 25px;
+}
+
+.location-box .google-map button.btn {
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.location-box .google-map button a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  color: rgb(19, 19, 83);
+}
+
+/* end of location styling */
+
+/* EVENTS STYLING */
+
+/* END OF EVENT STYLING */

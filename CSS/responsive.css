@@ -1,0 +1,245 @@
+@media screen and (min-width: 279px) and (max-width: 480px) {
+  .navbar {
+    height: 100% !important;
+  }
+  .menu-section {
+    margin: 0;
+  }
+  .box {
+    margin: auto !important;
+    width: 100%;
+    border-radius: 0 0 0 0 !important;
+  }
+  /* .menu-section .col-sm-3 {
+    margin-left: 3.5% !important;
+  } */
+  .detail-box {
+    margin: auto !important;
+  }
+  .footer-section {
+    height: 100% !important;
+    margin-bottom: 2% !important;
+  }
+  .table td .nav-link {
+    width: 90% !important;
+    margin: 0 !important;
+  }
+  .table td .nav-link:hover {
+    color: orange !important;
+  }
+  /* location section */
+  .location-container {
+    height: 100% !important;
+  }
+  .location-container h1 {
+    text-align: center;
+  }
+  .location-content {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .location-box {
+    width: 100%;
+    height: 100% !important;
+  }
+  /* end of location sction */
+
+  /* FORM RESPONSIVE STYLING */
+  .form-section{
+    width: 100%!important; 
+    display: flex!important;
+    
+  }
+  .form-group-content{
+    display: inline-block!important;
+    margin: auto!important;
+    padding: 5%!important;
+  }
+  .passport{
+    margin: 0!important;
+  }
+  /* END OF FORM RESPONSIVE STYLING */
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
+  .navbar {
+    height: 100% !important;
+  }
+  .menu-section {
+    margin: 0;
+    /* height: 100%; */
+  }
+  .box {
+    margin: auto !important;
+    width: 100%;
+    border-radius: 0 0 0 0 !important;
+  }
+
+  .footer-section {
+    height: 100% !important;
+    margin-bottom: 2% !important;
+  }
+  /* location section */
+  .location-container {
+    height: 100% !important;
+  }
+  .location-container h1 {
+    text-align: center;
+  }
+  .location-content {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .location-box {
+    width: 100%;
+    height: 100% !important;
+  }
+  /* end of location sction */
+}
+
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+  .navbar {
+    height: 100% !important;
+  }
+  .menu-section {
+    margin: 0;
+  }
+  .box {
+    margin: auto !important;
+    height: 100% !important;
+    border-radius: 0 0 0 0 !important;
+  }
+  .footer-section {
+    height: 100% !important;
+    margin-bottom: 2% !important;
+  }
+  /* location section */
+  .location-container {
+    height: 100% !important;
+  }
+  .location-container h1 {
+    text-align: center;
+  }
+  .location-content {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .location-box {
+    width: 100%;
+    height: 100% !important;
+  }
+  /* end of location sction */
+}
+
+@media screen and (min-width: 580px) and (max-width: 680px) {
+  .navbar {
+    height: 100% !important;
+  }
+  .menu-section {
+    margin: 0;
+  }
+  .box {
+    margin: auto !important;
+    height: 100% !important;
+    border-radius: 0 0 0 0 !important;
+  }
+  .footer-section {
+    height: 100% !important;
+    margin-bottom: 2% !important;
+  }
+  /* location section */
+  .location-container {
+    height: 100% !important;
+  }
+  .location-container h1 {
+    text-align: center;
+  }
+  .location-content {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .location-box {
+    width: 100%;
+    height: 100% !important;
+  }
+  /* end of location sction */
+}
+
+@media screen and (min-width: 481) and (max-width: 769) {
+  .navbar {
+    height: 100% !important;
+  }
+  .menu-section {
+    margin: 0;
+  }
+  .box {
+    margin: auto !important;
+    border-radius: 0 0 0 0 !important;
+  }
+  .menu-section .col-sm-3 {
+    margin-left: auto !important;
+  }
+  .detail-box {
+    margin: auto !important;
+  }
+  .footer-section {
+    height: 100% !important;
+    margin-bottom: 2% !important;
+  }
+}
+/* location section */
+.location-container {
+  height: 100% !important;
+}
+.location-container h1 {
+  text-align: center;
+}
+.location-content {
+  height: 100% !important;
+  width: 100%;
+}
+
+.location-box {
+  width: 100%;
+  height: 100% !important;
+}
+/* end of location sction */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    height: 100% !important;
+  }
+  .menu-section {
+    margin: 0;
+  }
+  .box {
+    margin: auto !important;
+    border-radius: 0 0 0 0 !important;
+  }
+  .footer-section {
+    height: 100% !important;
+    margin-bottom: 2% !important;
+  }
+  /* location section */
+  .location-container {
+    height: 100% !important;
+  }
+  .location-container h1 {
+    text-align: center;
+  }
+  .location-content {
+    height: 100% !important;
+    width: 100%;
+  }
+
+  .location-box {
+    width: 100%;
+    height: 100% !important;
+  }
+  /* end of location sction */
+}

@@ -1,0 +1,184 @@
+nav,
+header,
+footer {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  margin: 0;
+}
+
+.container{
+  display: block;
+  margin-top: 20px;
+}
+
+.navbar.container-fluid{
+  display: inline-block;
+
+}
+
+nav ul {
+  background-color: gold;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: block;
+  width: 100%;
+  margin-left: 20px;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+}
+
+ul li a {
+  align-content: center;
+  text-decoration: none;
+  padding: 10px;
+  min-height: 14px;
+  text-transform: uppercase;
+  margin-left: 75px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #fff;
+}
+
+
+
+
+/* carosel styles */
+
+.carousel {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.col-sm-6 {
+  width: 100%;
+  margin: auto;
+}
+
+/* header style sectiion */
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+h1{
+  color: orange;
+}
+
+h1.header2 {
+  background: none;
+}
+i {
+  color: gray;
+}
+.fa-smile,
+.fa-bounce {
+  color: yellow;
+  text-align: center;
+}
+.fa-location-pin {
+  color: red;
+}
+
+
+ul.navbar-nav li.nav-item a.nav-link i.fa-home,
+.fa-bowl-rice,
+.fa-address-book,
+.fa-circle-info,
+.fa-wine-bottle,
+.fa-location-pin,
+.fa-briefcase{
+  margin-right: 15px;
+}
+
+
+.section-3-img{
+  display: block;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* footer styles */
+
+footer.last-section{
+  background-color: #666;
+  margin-top: 30px;
+}
+
+footer.last-section h1{
+  color: #fff;
+  font-size: medium;
+  text-align: center;
+}
+
+footer.last-section ul{
+  list-style: none;
+  text-align: justify;
+  padding: 0;
+}
+
+footer.last-section ul li{
+  background-color: #666;
+
+
+}
+
+.col-3{
+  background-color: #666;
+  text-align: center;
+}
+.fp{
+  text-align: justify;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 680px){
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  div.col-sm-3{
+    padding: 1px 1px 4px 4px;
+    text-align: center;
+  }
+
+}
+
